@@ -142,6 +142,6 @@ export const DELETE = async (request) => {
 
   return NextResponse.json({
     ok: true,
-    message: `Student Id ${body.stude`ntId} has been deleted`,
+    message: `Student Id ${body.studentId} has been deleted`,
   });
 };
